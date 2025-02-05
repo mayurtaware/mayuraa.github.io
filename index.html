@@ -3,10 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Simple Website</title>
+    <title>Mayur Taware - Resume</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #0073e6;
+        }
+        h2 {
+            color: #ff6600;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+        .section {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        .contact-info {
+            font-size: 14px;
+        }
+        .contact-info a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Website!</h1>
-    <p>This is a simple HTML page hosted on FreeDomain.one.</p>
+    <div class="container">
+        <img src="profile_picture.jpg" alt="Mayur Taware" class="profile-img">
+        <h1>Mayur Taware</h1>
+        <h2>Azure DevOps Engineer</h2>
+        <p class="contact-info">
+            📞 +91 969 969 1420 | ✉️ <a href="mailto:mayurtaware9833@gmail.com">mayurtaware9833@gmail.com</a> | 
+            🌍 <a href="http://www.linkedin.com/in/mayur-taware" target="_blank">LinkedIn</a>
+        </p>
+        
+        <div class="section">
+            <h2>About</h2>
+            <p>Highly motivated and resourceful software professional with over 7+ years of industry experience. Passionate about problem-solving and possessing expertise in Azure DevOps and the Azure cloud platform. Seeking a challenging technical role in the Cloud Industry to further contribute and grow.</p>
+        </div>
+        
+        <div class="section">
+            <h2>Education</h2>
+            <p><strong>Masters of Science (CS)</strong> - Savitribai Phule Pune University (2021)</p>
+            <p><strong>Bachelor of Science (CS)</strong> - University of Mumbai (2018)</p>
+        </div>
+        
+        <div class="section">
+            <h2>Work Experience</h2>
+             <h3>Senior Engineer, Apexon (July 2024 - Present)</h3>
+            <ul>
+                <li>Setting alerts for monitoring of critical infrastructure using prometheus and grafana</li>
+                <li>Creating dashboards for efficient monitoring. </li>
+                <li>Setting up loki and tempo for logging and tracing.</li>
+                <li>Python scripting to automate Database Status reports.</li>
+            </ul>
+            
+
+
+            <h3>Senior Engineer, LTIMindtree Ltd (Sept 2022 - July 2024)</h3>
+            <ul>
+                <li>Automating and optimizing critical deployments on Azure Cloud using CI/CD and DevOps processes.</li>
+                <li>Experience in monitoring and responding to alerts within environment using Azure Log Analytics.</li>
+                <li>Provisioning, administration, and management of Azure hosted VMs.</li>
+            </ul>
+            
+            <h3>Systems Engineer, Infosys Ltd (June 2018 - Sept 2022)</h3>
+            <ul>
+                <li>Experience in deploying to serverless architecture such as Azure Functions.</li>
+                <li>Developed PowerShell Runbooks in Azure Automation Account for various automation activities.</li>
+                <li>Deployments to Azure Data Factory (ADF) and PowerBI using Azure DevOps.</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Microsoft Certified Azure Fundamentals (AZ-900)</li>
+                <li>Microsoft Certified Azure DevOps Engineer (AZ-400)</li>
+                <li>Infosys Certified Python Associate</li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
